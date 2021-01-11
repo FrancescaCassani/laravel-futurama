@@ -1,0 +1,16 @@
+.nav-logo {
+    background: $black;
+    .logo {
+        img {
+            width: 100%;
+        }
+    }
+}
+.nav {
+    line-height: 50px;
+    background: $black;
+    a {
+        font-size: 1.5rem;
+        color: $white;
+    }
+}

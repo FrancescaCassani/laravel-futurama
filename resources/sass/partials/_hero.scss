@@ -1,0 +1,17 @@
+.hero {
+    background: $black;
+    .hero-img {
+        height: 600px;
+        background-image: url('../images/hero.jpg');
+        background-size: cover;
+        background-position: center;
+        a {
+            color: $black;
+            text-align: center;
+            h2, p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    
+}
