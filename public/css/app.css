@@ -282,11 +282,12 @@
 }
 .nav a {
   font-size: 1.5rem;
-  color: #fff;
+  color: #f7ee7c;
 }
 
 .hero {
   background: #000;
+  height: 700px;
 }
 .hero .hero-img {
   height: 600px;
@@ -295,7 +296,7 @@
   background-position: center;
 }
 .hero .hero-img a {
-  color: #000;
+  color: #3f3a3a;
   text-align: center;
 }
 .hero .hero-img a h2, .hero .hero-img a p {
@@ -306,4 +307,33 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 4rem;
+}
+
+.content-info {
+  background: #333333;
+}
+.content-info a {
+  color: #fff;
+}
+.content-info a li {
+  line-height: 3rem;
+}
+.content-info a li h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.8rem;
+  font-size: 1.8rem;
+}
+.content-info a li h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background: #767676;
+}
+.content-info a li p {
+  color: #333333;
+  background: #f7ee7c;
+  border-top: 0.8rem solid #333333;
+  padding: 0 12px;
 }
